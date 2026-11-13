@@ -96,14 +96,17 @@ const MODES = [
   ['graph', 'Graphing'],
   ['3d', '3D Surfaces'],
   ['programmer', 'Programmer'],
-  ['matrix', 'Matrix'],
+  ['matrix', 'Matrix & Vectors'],
   ['solver', 'Equation Solver'],
-  ['calculus', 'Calculus'],
+  ['calculus', 'Calculus & Algebra'],
   ['stats', 'Statistics'],
+  ['table', 'Table & Sequences'],
+  ['sheet', 'Spreadsheet'],
   ['finance', 'Finance'],
   ['units', 'Converter'],
   ['code', 'Code & Library'],
   ['developers', 'API & Embed'],
+  ['guide', 'Guide & Examples'],
 ];
 
 function navigate(mode) {

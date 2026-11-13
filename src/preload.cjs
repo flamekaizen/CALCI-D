@@ -3,7 +3,7 @@ const { contextBridge, ipcRenderer } = require('electron');
 
 contextBridge.exposeInMainWorld('calciDesktop', {
   platform: process.platform,
-  version: '1.0.0',
+  version: '1.1.0',
   setAlwaysOnTop: (on) => ipcRenderer.invoke('calci:setAlwaysOnTop', !!on),
   isAlwaysOnTop: () => ipcRenderer.invoke('calci:isAlwaysOnTop'),
   setTitleBarTheme: (theme) => ipcRenderer.send('calci:titleBarTheme', theme === 'dark' ? 'dark' : 'light'),
