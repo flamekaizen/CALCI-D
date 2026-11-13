@@ -12,6 +12,15 @@ with desktop extras:
 - Secure by default: context isolation, sandboxed renderer, no Node in the page, files served
   from a private `app://` protocol, external links open in your browser
 
+## Download
+
+Open the repository’s **Releases** page and download:
+
+- **Windows:** `Calci-Setup-<version>-x64.exe` (installer with Start-menu shortcut) or `Calci-Portable-<version>.exe` (no install)
+- **macOS:** the `.dmg`  ·  **Linux:** the `.AppImage` or `.deb`
+
+The builds are not code-signed yet. Windows SmartScreen shows “Windows protected your PC” → **More info → Run anyway**. If **Smart App Control** is turned on in Windows Security, it blocks unsigned apps completely; use `npm start` from a clone instead, or sign the app (see Releases below).
+
 ## Run & build
 
 ```bash
