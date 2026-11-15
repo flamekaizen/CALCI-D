@@ -1,4 +1,28 @@
-# Calci — desktop (Windows, macOS, Linux)
+<!-- calci-header -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/flamekaizen/CALCI-W/main/public/icons/icon-256.png" width="88" alt="Calci logo"/>
+
+# Calci — desktop
+
+**The all-in-one advanced calculator as a fast, fully offline desktop app for Windows, macOS and Linux, with a mini mode, always-on-top and a global hotkey.**
+
+<a href="https://github.com/flamekaizen/CALCI-D/releases/latest"><img src="https://img.shields.io/github/v/release/flamekaizen/CALCI-D?style=flat-square&color=8C8CFF&label=release" alt="Release"/></a>
+<img src="https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-30363D?style=flat-square" alt="Platforms"/>
+<img src="https://img.shields.io/badge/Electron-45-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron"/>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/flamekaizen/CALCI-D?style=flat-square&color=8C8CFF" alt="License"/></a>
+
+<a href="https://github.com/flamekaizen/CALCI-D/releases/latest"><b>⬇ Download for Windows, macOS or Linux</b></a> &nbsp;|&nbsp; <a href="https://calci-web.vercel.app">Try it in the browser</a>
+
+<sub>Part of the Calci family &nbsp;—&nbsp; <a href="https://github.com/flamekaizen/CALCI-W">🌐 Web</a> &nbsp;·&nbsp; <b>🖥️ Desktop</b> &nbsp;·&nbsp; <a href="https://github.com/flamekaizen/CALCI-M">📱 Mobile</a></sub>
+
+<br/><br/>
+
+<img src="docs/screenshots/desktop-graph.png" alt="Calci desktop window showing graphing mode" width="100%"/>
+
+
+</div>
+<!-- calci-header -->
 
 Desktop app for **Calci**, the all-in-one advanced calculator. It runs the Calci web app
 ([CALCI-W](https://github.com/flamekaizen/CALCI-W)) inside [Electron](https://www.electronjs.org), fully offline,
